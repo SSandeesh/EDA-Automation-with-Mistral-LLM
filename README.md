@@ -60,15 +60,15 @@ The dataset provided contains information about various employees, their charact
 
 2. Outliers or anomalies:
 
-   - There are a few outliers in the dataset, particularly in variables like StockOptionLevel, TotalWorkingYears, YearsAtCompany, and YearsInCurrentRole. These outliers could potentially be due to errors in data collection or represent unique cases that provide valuable insights.
+- There are a few outliers in the dataset, particularly in variables like StockOptionLevel, TotalWorkingYears, YearsAtCompany, and YearsInCurrentRole. These outliers could potentially be due to errors in data collection or represent unique cases that provide valuable insights.
 3. Possible next steps for data preprocessing:
 
-   - Handle missing values by imputation (e.g., mean, median, or mode imputation) or using more advanced techniques like multiple imputation by chained equations (MICE).
-   - Perform normalization of the data to ensure that all variables contribute equally during modeling and analysis.
-   - Remove outliers if they are errors in data collection or if they do not provide valuable insights for your specific analysis.
-   - Explore transforming some variables, such as StockOptionLevel, TotalWorkingYears, YearsAtCompany, and YearsInCurrentRole, to better understand their impact on other variables and outcomes.
+- Handle missing values by imputation (e.g., mean, median, or mode imputation) or using more advanced techniques like multiple imputation by chained equations (MICE).
+- Perform normalization of the data to ensure that all variables contribute equally during modeling and analysis.
+- Remove outliers if they are errors in data collection or if they do not provide valuable insights for your specific analysis.
+- Explore transforming some variables, such as StockOptionLevel, TotalWorkingYears, YearsAtCompany, and YearsInCurrentRole, to better understand their impact on other variables and outcomes.
 4. Potential business insights:
 
-   - There seems to be a correlation between tenure at the current company/role and certain factors like StockOptionLevel and WorkLifeBalance. This may suggest that employees who have been with the company for longer tend to receive more stock options and might also enjoy better work-life balance.
-   - Employees who have been with their current manager for a longer time seem to have a higher WorkLifeBalance, indicating the positive impact of a good relationship with one's manager on overall job satisfaction.
-   - The outliers in certain variables (like StockOptionLevel and TotalWorkingYears) may represent high-performing employees or long-term dedicated employees who could be valuable assets to the company. Investigating these cases further might provide useful insights for employee retention strategies.
+- There seems to be a correlation between tenure at the current company/role and certain factors like StockOptionLevel and WorkLifeBalance. This may suggest that employees who have been with the company for longer tend to receive more stock options and might also enjoy better work-life balance.
+- Employees who have been with their current manager for a longer time seem to have a higher WorkLifeBalance, indicating the positive impact of a good relationship with one's manager on overall job satisfaction.
+- The outliers in certain variables (like StockOptionLevel and TotalWorkingYears) may represent high-performing employees or long-term dedicated employees who could be valuable assets to the company. Investigating these cases further might provide useful insights for employee retention strategies.
